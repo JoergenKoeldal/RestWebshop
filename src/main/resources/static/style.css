@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: #292929;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    color: #292929;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.button1 {
+    background-color: darkseagreen;
+    border: none;
+    color: white;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: .25rem;
+}

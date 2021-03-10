@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+</head>
+<body>
+
+<form action="/update" method="post">
+    <div>
+        <input type="hidden" name="productid" th:value="${product.productid}">
+        <input type="text" name="name" th:value="${product.name}">
+
+    </div>
+    <div>
+        <input type="" name="price" th:value="${product.price}">
+    </div>
+    <div>
+        <input type="submit" value="Update">
+    </div>
+</form>
+
+</body>
+</html>
